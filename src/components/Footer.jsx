@@ -5,15 +5,15 @@ function Footer() {
     return (
         <>
             <div
-                className="w-full text-[#bcb4b4] bg-[#1e1e1e] h-[393px] py-[100px] text-[18px]  font-['Roboto mono']
+                className="w-full sm:mt-[100px]  text-[#bcb4b4] bg-[#1e1e1e] sm:h-full h-[393px] pt-[100px] text-[18px]  font-['Roboto mono']
                "
             >
-                <div className="h-[199px]  max-w-[1200px] w-[90%]  mx-auto gap-[3rem]   flex justify-between items-start ">
-                    <div className="w-[444px] place-content-start space-y-2">
+                <div className="sm:h-full h-[199px] max-w-[1200px] w-[90%]  mx-auto gap-[3rem] sm:flex-col   flex justify-between items-start ">
+                    <div className="w-[444px] sm:w-full place-content-start space-y-2">
                         <h1 className="text-[35px] font-semibold font-['Montserrat']">
                             Yogesh Jadhav
                         </h1>
-                        <div className=" text-wrap leading-[23px] ">
+                        <div className="sm:text-[14px] text-wrap leading-[23px] ">
                             <p>
                                 Computer Science Graduate skilled in <br />
                                 Java & MERN Stack Passionate about technology A
@@ -120,9 +120,9 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#262626] mx-auto w-full   h-[44px] flex justify-center items-start  p-[10px] mt-[50px]">
-                    <div className="w-[1200px]">
-                        <div className="">
+                <div className="bg-[#262626] sm:text-[14px] mx-auto w-full h-[44px] flex justify-center items-start  p-[10px]  mt-[50px]">
+                    <div className="w-[1200px] sm:w-full">
+                        <div>
                             <p>
                                 © 2024 - Yogesh Jadhav | Created By{" "}
                                 <a

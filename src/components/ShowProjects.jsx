@@ -40,7 +40,7 @@ function ShowProjects({ onSendData }) {
             {projects.map((project) => (
                 <div
                     key={project.id}
-                    className="carousel-item"
+                    className="carousel-item sm:min-w-[288px] sm:max-w-[288px] "
                     style={{
                         minWidth: "380px",
                         maxWidth: "380px",
@@ -51,12 +51,12 @@ function ShowProjects({ onSendData }) {
                     <div className="space-y-5">
                         <a href={project.projectUrl}>
                             <img
-                                className="rounded-[12px] w-[374px] h-[394px] border-[3px] border-[#363636]  object-cover overflow-hidden"
+                                className="rounded-[12px] sm:w-[288px] w-[374px] h-[394px] border-[3px] border-[#363636]  object-cover overflow-hidden"
                                 src={project.img}
                                 alt="project img"
                             />
                         </a>
-                        <div className="bg-[#1E1E1E] text-left p-[10px] rounded-[12px]">
+                        <div className="sm:max-w-[288px] bg-[#1E1E1E] text-left p-[10px] rounded-[12px]">
                             <a href="/">
                                 <h3 className="text-[22px] font-bold">
                                     {project.title}

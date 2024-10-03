@@ -2,18 +2,18 @@ import React from "react";
 
 function HomeServicesContent() {
     return (
-        <div className="w-full text-[#bcb4b4] h-[530px] flex py-[100px] justify-center items-center ">
-            <div className=" mx-auto w-[1200px]  flex flex-col justify-center items-center">
+        <div className="w-full sm:h-[830px]  sm:items-start  text-[#bcb4b4] h-[530px] py-[100px] flex  justify-center items-center  ">
+            <div className=" mx-auto w-[1200px] sm:w-[288px]  flex flex-col justify-center items-center">
                 <div className="text-center">
-                    <p className="text-[20px]  font-['Roboto mono'] ">
+                    <p className="text-[20px] sm:text-[12px]  font-['Roboto mono'] ">
                         What i will do for you
                     </p>
-                    <h2 className="text-[60px] font-bold font-['Montserrat'] uppercase">
+                    <h2 className="text-[60px] sm:text-[36px] font-bold font-['Montserrat'] uppercase">
                         Services
                     </h2>
                 </div>
-                <div className="h-[176px] mt-[50px]  gap-[100px] flex justify-around items-center">
-                    <div className="w-[333px]  flex flex-col ga justify-center items-center">
+                <div className="h-[176px] my-[50px]  gap-[100px] sm:gap-[50px] flex justify-around items-center sm:flex-col">
+                    <div className="w-[333px] sm:w-[288px]  flex flex-col justify-center items-center">
                         <div>
                             <svg
                                 stroke="currentColor"
@@ -30,13 +30,13 @@ function HomeServicesContent() {
                             Frontend
                         </div>
                         <div>
-                            <p className="text-[18px] fonnt-[Roboto] text-center">
+                            <p className="text-[18px] sm:text-[14px] fonnt-[Roboto] text-center">
                                 Responsive high-performance interfaces with
                                 React & Tailwind CSS
                             </p>
                         </div>
                     </div>
-                    <div className="w-[333px]  flex flex-col justify-center items-center">
+                    <div className="w-[333px] sm:w-[288px]  flex flex-col justify-center items-center">
                         <div>
                             <svg
                                 stroke="currentColor"
@@ -53,13 +53,13 @@ function HomeServicesContent() {
                             Backend
                         </div>
                         <div>
-                            <p className="text-[18px] fonnt-[Roboto] text-center">
+                            <p className="text-[18px] sm:text-[14px] fonnt-[Roboto] text-center">
                                 Scalable systems using Java SQL MongoDB &
                                 Express
                             </p>
                         </div>
                     </div>
-                    <div className="w-[333px]  flex flex-col justify-center items-center">
+                    <div className="w-[333px] sm:w-[288px]  flex flex-col justify-center items-center">
                         <div>
                             <svg
                                 stroke="currentColor"
@@ -79,7 +79,7 @@ function HomeServicesContent() {
                             Web Design
                         </div>
                         <div>
-                            <p className="text-[18px] fonnt-[Roboto] text-center">
+                            <p className="text-[18px] sm:text-[14px] fonnt-[Roboto] text-center">
                                 Unique user-friendly UI/UX for a professional
                                 look{" "}
                             </p>

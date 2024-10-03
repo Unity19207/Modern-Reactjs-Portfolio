@@ -48,20 +48,20 @@ function HomeProjectsContent() {
     };
 
     return (
-        <div className="h-[988px] py-[100px] w-full flex  justify-center  items-center">
+        <div className="sm:h-full  h-[988px] sm:py-[0px]  py-[100px] w-full flex justify-center items-center">
             <div className="mx-auto text-center w-[1200px] text-[#bcb4b4]  flex flex-col justify-center items-center">
                 <div>
-                    <p className="text-[20px] font-['Roboto mono']">
+                    <p className="text-[20px] sm:text-[14px] font-['Roboto mono']">
                         some of my recent works
                     </p>
-                    <h2 className="text-[60px] uppercase font-bold font-['Montserrat']">
+                    <h2 className="text-[60px] sm:text-[36px] uppercase font-bold font-['Montserrat']">
                         Projects
                     </h2>
                 </div>
 
-                <div className="pt-[80px] mx-auto overflow-hidden w-[1200px] min-h-[554px] relative">
+                <div className="sm:w-[288px] pt-[80px] mx-auto overflow-hidden  w-[1200px] min-h-[554px] relative">
                     <div
-                        className="flex transition-transform duration-500 ease-in-out"
+                        className="sm:w-full sm:flex-col flex sm:justify-center sm:items-start transition-transform duration-500 ease-in-out"
                         style={{
                             transform: `translateX(-${
                                 currentStartIndex * (100 / slidesToShow)

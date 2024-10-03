@@ -12,7 +12,7 @@ function Home() {
             <HomeAboutContent />
             <HomeServicesContent />
             <HomeProjectsContent />
-            <div className="mt-[100px] mb-[200px]">
+            <div className="sm:my-[0px] mt-[100px] mb-[200px]">
                 <ConnectWithMe />
             </div>
         </>

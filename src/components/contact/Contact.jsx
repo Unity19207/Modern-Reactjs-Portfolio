@@ -3,17 +3,17 @@ import React from "react";
 function Contact() {
     return (
         <>
-            <div className=" min-h-[937px] py-[150px] text-[#bcb4b4] ">
-                <div className="container max-w-[1200px] mx-auto w-[90%]">
+            <div className=" min-h-[937px] sm:w-full py-[150px] text-[#bcb4b4] ">
+                <div className="container sm:max-w-[288px] max-w-[1200px] mx-auto ">
                     <div className=" section-title text-center">
-                        <p className="text-[18px] font-['Roboto mono']">
+                        <p className="text-[18px] sm:text-[12px] font-['Roboto mono']">
                             get in touch
                         </p>
-                        <h2 className=" text-[60px] uppercase font-semibold font-['Montserrat']">
+                        <h2 className=" text-[60px] sm:text-[36px] uppercase font-semibold font-['Montserrat']">
                             contact
                         </h2>
                     </div>
-                    <div className=" mt-[70px] flex justify-between gap-[5rem]">
+                    <div className=" mt-[70px] flex sm:flex-col flex-wrap justify-between gap-[5rem]">
                         <div className="left w-[100%] max-w-[500px]">
                             <div className=" p-[12px] bg-[#1e1e1e] flex justify-start items-center rounded-[8px] mb-[2rem] gap-[2rem]  ">
                                 <div className="icon  bg-[#262626] p-[1.3rem] flex justify-center items-center rounded-3xl">
@@ -30,7 +30,7 @@ function Contact() {
                                     </svg>
                                 </div>
                                 <div className="info  font-['Roboto mono']">
-                                    <div className=" max-w-[500px] mx-auto text-[1.3rem]    ">
+                                    <div className=" max-w-[500px] mx-auto sm:text-[14px] text-[1.3rem]    ">
                                         <p>+91 7218208115</p>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ function Contact() {
                                     </svg>
                                 </div>
                                 <div className="info font-['Roboto mono']">
-                                    <div className=" max-w-[500px] mx-auto text-[1.3rem]    a ">
+                                    <div className=" max-w-[500px] mx-auto sm:text-[14px] text-[1.3rem]    a ">
                                         <p>yajadhav19@gmail.com</p>
                                     </div>
                                 </div>
@@ -70,13 +70,13 @@ function Contact() {
                                     </svg>
                                 </div>
                                 <div className="info font-['Roboto mono']">
-                                    <div className=" max-w-[500px] mx-auto text-[1.3rem]    a ">
+                                    <div className=" max-w-[500px] mx-auto sm:text-[14px] text-[1.3rem]    a ">
                                         <p>Pune, Maharashtra, India</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="right w-[100%] max-w-[500px] rounded-[12px]">
+                        <div className="right sm:px-5 sm:py-5 w-[100%] max-w-[500px] rounded-[12px]">
                             <form
                                 onSubmit={(e) => e.preventDefault()}
                                 className="w-[100%]"
@@ -88,7 +88,7 @@ function Contact() {
                                             type="text"
                                             id="name"
                                             name="name"
-                                            className="w-[100%]  text-[1rem] p-[1.2rem] bg-[#1e1e1e] outline-none
+                                            className="w-[100%] sm:text-[18px]  text-[1rem] p-[1.2rem] bg-[#1e1e1e] outline-none
                                             border-none rounded-[8px] mt-[1rem] "
                                         />
                                     </label>
@@ -100,7 +100,7 @@ function Contact() {
                                             type="email"
                                             id="email"
                                             name="email"
-                                            className="w-[100%] text-[1rem] p-[1.2rem] bg-[#1e1e1e] outline-none border-none rounded-[8px] mt-[1rem]"
+                                            className="w-[100%] sm:text-[18px] text-[1rem] p-[1.2rem] bg-[#1e1e1e] outline-none border-none rounded-[8px] mt-[1rem]"
                                         />
                                     </label>
                                 </div>
@@ -111,12 +111,12 @@ function Contact() {
                                             type="text"
                                             id="message"
                                             name="message"
-                                            className="w-[100%] text-[1rem] p-[1.2rem] bg-[#1e1e1e] outline-none border-none rounded-[8px] mt-[1rem]"
+                                            className="w-[100%] sm:text-[18px] text-[1rem] p-[1.2rem] bg-[#1e1e1e] outline-none border-none rounded-[8px] mt-[1rem]"
                                         ></textarea>
                                     </label>
                                 </div>
                                 <button
-                                    className="bg-[#bcb4b4]
+                                    className="bg-[#bcb4b4] sm:text-[20px]  sm:py-3 sm:px-10
                              h-[100%] py-2 px-7 rounded-lg  text-black text-[22px]   border-none"
                                     type="submit"
                                 >
@@ -127,11 +127,11 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <div className=" contactbackground relative max-h-[400px] min-h-[400px] text-[#bcb4b4]">
+            <div className=" contactbackground relative max-h-[400px] min-h-[400px] text-[#bcb4b4] ">
                 <div className="absolute w-full h-[400px] opacity-70 bg-[#1e1e1e]"></div>
                 <div className="container relative min-h-[400px] z-10 ">
                     <div
-                        className="map__card absolute right-[10%] bottom-[10%] p-[30px]
+                        className="map__card absolute sm:right-[4%] sm:bottom-[4%] right-[20%] bottom-[10%] p-[30px]
                      bg-[#1e1e1e] w-[100%] max-w-[300px] rounded-[12px]"
                     >
                         <h3 className=" text-[1.5rem] mb-[0.6rem]">

@@ -7,8 +7,8 @@ function HomeTopContent() {
 
     return (
         <>
-            <div className=" h-[1000px] pt-[150px]  pb-[50px] w-full flex justify-center items-center">
-                <div className="absolute uppercase text-[#bcb4b4] bottom-[-37px] left-[23px] space-y-7 text-[16px] tracking-[7px] 	">
+            <div className="  h-[1000px] pt-[150px] pb-[50px] w-[100%] flex justify-center items-center sm:items-start">
+                <div className="absolute uppercase text-[#bcb4b4] sm:left-[-25px]  bottom-[-37px] left-[23px] space-y-7 sm:text-[12px] text-[16px] tracking-[7px] 	">
                     <div className=" flex flex-col justify-center items-center space-y-10 tracking-[7px]">
                         <p className="rotate-90 font-light">Follow</p>
                         <svg
@@ -56,8 +56,8 @@ function HomeTopContent() {
                         </li>
                     </ul>
                 </div>
-                <div className="absolute  uppercase text-[#bcb4b4] bottom-[-46px] right-[27px] text-[16px] 	">
-                    <div className=" flex flex-col  justify-center items-center tracking-[7px]  gap-16">
+                <div className="absolute sm:text-[12px] w-[25px]  uppercase text-[#bcb4b4] bottom-[-46px] sm:right-[10px] right-[27px] text-[16px] 	">
+                    <div className=" flex flex-col  justify-center items-center tracking-[7px] gap-16">
                         <p className="rotate-90 ">Scroll</p>
                         <svg
                             width="8"
@@ -74,24 +74,24 @@ function HomeTopContent() {
                         </svg>
                     </div>
                 </div>
-                <div className="  flex justify-center items-center w-[1154px] ">
-                    <div className="   w-[896px] h-[586px] border-2 relative">
+                <div className=" sm:flex-col sm:w-[100%] flex justify-center items-center w-[1154px] ">
+                    <div className="sm:w-[284px] sm:h-[296px]  w-[896px] h-[586px] border-2 relative">
                         <img
-                            className="absolute top-0 left-0 w-full h-full brightness-[35%] object-cover"
+                            className=" absolute top-0 left-0 w-full h-full brightness-[35%] object-cover"
                             src={hometopimage}
                             alt=""
                         />
                         <div className="  flex  justify-center items-center">
-                            <div className="absolute  top-[-90px] text-center  ">
-                                <p className="text-[#bcb4b4] text-[20px]  font-semibold">
+                            <div className="absolute sm:top-[-53px]  top-[-90px] text-center  ">
+                                <p className="text-[#bcb4b4] sm:text-[15px] text-[20px]  font-semibold">
                                     Hello, This is
                                 </p>
-                                <h1 className="text-white text-[70px]  font-semibold font-['Montserrat']   ">
+                                <h1 className="text-white sm:text-[35px] text-[70px]  font-semibold font-['Montserrat']   ">
                                     Yogesh Jadhav
                                 </h1>
                             </div>
-                            <div className="absolute bottom-[24px] space-y-8  flex flex-col justify-center items-center">
-                                <p className="text-[#bcb4b4] w-[490px] text-[18px] h-[70px] text-pretty text-center    ">
+                            <div className="absolute sm:bottom-[-190px] bottom-[30px] sm:space-y-4  space-y-8  flex flex-col justify-center items-center">
+                                <p className="text-[#bcb4b4] sm:w-[100%] sm:h-[100%] w-[490px] sm:text-[14px] text-[18px] h-[70px] text-pretty text-center    ">
                                     I am a Computer Science Graduate <br />
                                     Proficient in Java, React, and MERN Stack
                                     <br />
@@ -99,7 +99,7 @@ function HomeTopContent() {
                                 </p>
 
                                 <button
-                                    className=" bg-[#bcb4b4] py-4 px-11 rounded-box  text-black text-[22px]   border-none  brightness-[100%] hover:brightness-[120%] "
+                                    className=" bg-[#bcb4b4] sm:py-3 sm:px-9 py-4 px-11 rounded-xl  text-black text-[22px]   border-none  brightness-[100%] hover:brightness-[120%] "
                                     onClick={() => navigate("/projects")}
                                 >
                                     see my works
